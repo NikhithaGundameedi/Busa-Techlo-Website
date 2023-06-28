@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+background-color: black;
+justify-content: space-around;
+align-items: center;
+padding: 1.3rem;
+}
+.nav{
+    font-size: 1.7rem;
+    text-align: center;
+}
+ a{
+    color:white;
+    padding: 1rem;
+
+}
+a:hover{
+    background-color: white;
+    color:black;
+    border-radius: 8px;
+    transform: scale(1);
+padding: 0.7rem;
+    margin: 1rem;
+    overflow: hidden;
+    transition:  1s ease-in-out;
+}
+.Button:hover{
+    border-radius: 8px;
+    transform: scale(1.2);
+    overflow: hidden;
+    transition:  1s ease-in-out;
+}
+.Button{
+    padding:1rem;
+    font-family:Poppins, sans-serif;
+    min-width:3rem;
+    border-radius: 8px;
+}
+.home{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:pink;
+    min-height: 100vh;
+}
+.home-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+}
+.home-content1{
+    font-size: 6rem;
+    color:black;
+}
+.home-content2{
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: black;
+    text-align: left;
+}
+.home-button{
+    padding: 1.3rem;
+    align-items: center;
+    color:black;
+    min-width:10rem;
+    background-color:#e63682 ;
+    border:none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+.services p{
+    font-family:Poppins, sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem;
+    background-color:#dcd8fb;
+}
+.services-cards{
+    
+    min-height: 75vh;
+    background-color:#faf7f4;
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services-heading{
+    background-color:#faf7f4 ;
+   
+}
+.cards{
+    
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    padding: 1rem;
+    width:20rem;  
+margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: white;;
+}
+.cards :nth-child(2){
+    
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+}
+.cards :nth-child(3){
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 24px;
+    
+}
+.cards :nth-child(4){
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family:serif;
+    text-align: center;
+    line-height: 24px;
+    
+}
+.cards button{
+    padding: 1rem;
+    margin:1rem;
+}
+.cards img{
+    border-radius: 50%;
+    
+}
+.cards:hover{
+    transform: scale(1.05);
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+}
+.Aboutus{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-heading , .Team{
+    color:#00235a;
+    padding: 2rem;
+    letter-spacing:10px;
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+}
+.Aboutus p:nth-child(1){
+    color:#00235a;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+.Aboutus p:nth-child(2){
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 600;
+    color:#e63682
+}
+.Aboutus p{
+ color:black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 24px;
+
+}
+.Aboutus button{
+    padding: 1rem;
+    margin:1rem;
+    text-align: center;
+ background-color:#e63682;
+ border: none;
+ width:15rem;
+ font-size: 1.3rem;
+ border-radius: 10px;
+}
+.Team-cards{
+    margin: 0rem auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0;
+    grid-row-gap: 0;
+}
+.contactUs{
+
+padding: 26rem auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #00235a;
+}
+input{
+    border-radius: 10px;
+    width:500px;
+    height:50px;
+    border: 2px solid #eaecef;
+}
+.textarea{
+    padding:52px;
+
+}
+.container1 :nth-child(1){
+    font-size: 4rem;
+   color:#e63682;
+}
+.container2 p{
+    padding-top: 20px;
+    color: white;
+    font-size: 1.3rem;
+}
+.contactUs button{
+    
+    padding: 1.3rem;
+    align-items: center;
+    color:black;
+    min-width:10rem;
+    background-color:#e63682 ;
+    border:none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
